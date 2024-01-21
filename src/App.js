@@ -1,6 +1,7 @@
 import logo from './logo.svg';
 import './App.scss';
 import React from 'react';
+import Mycomponent from './components/Mycomponent';
 
 // your JSX code here
 
@@ -20,6 +21,7 @@ function App() {
         >
           Learn React
         </a>
+       <div> <Mycomponent/> </div>
       </header>
     </div>
   );
